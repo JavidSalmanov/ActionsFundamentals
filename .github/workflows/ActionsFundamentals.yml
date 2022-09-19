@@ -6,4 +6,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2.4.2
+      - name: run tree command
+        run: |
+          tree
       
